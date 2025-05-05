@@ -1,4 +1,4 @@
-name: product-catalog-ci
+name: product-catalog-c
 
 on: 
     push:
@@ -27,5 +27,5 @@ jobs:
         - name: unit tests
           run: |
             cd src/product-catalog
-            go test ./...
+            go test ./... 
     
